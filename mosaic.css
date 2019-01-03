@@ -1,0 +1,307 @@
+.mosaic-containter{
+  position: fixed;
+    top: 33px;
+      left: 0;
+      width: 100%;
+      background: #4e9ddc;
+      height: 100%;
+}
+
+.mosaic-body{
+  position: relative;
+  width: 410px;
+  float: left;
+  height: 410px;
+  /* background-image: url('/resources/img/wb.jpg');  */
+  background-size: 100% 100%;
+  border: 1px solid white;
+  top: 18%;
+  left: 35%;
+}
+
+.mosaic-bottom{
+    position: fixed;
+    width: 5%;
+    height: 12%;
+    bottom: 10%;
+    right: 5%;
+    border-radius: 60%;
+    background: #fbe735;
+    line-height: 80px;
+    text-align: center;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+
+
+/* .mosaic-part{
+  position: relative;
+    width: 5px;
+    height: 5px;
+    float: left;
+    border: 0px solid 0px #ffffff00;
+    cursor: crosshair;
+}  */
+
+
+ .mosaic-part{
+  position: relative;
+  float: left;
+  width: 10px;
+  height: 10px;
+  border: 0px solid 0px #ffffff00;
+  cursor: crosshair;
+}
+
+
+
+.mosaic-part:hover{
+  background: gray;
+  border:0px solid darkgray;
+}
+
+.selected-odd{
+  background: #fbfbfbf7;
+      filter: blur(2px);
+}
+.selected-even{
+  background: #cfd4d6;
+  filter: blur(3px);
+
+}
+
+.mosaic-result{
+  position: relative;
+  float: left;
+  width: 410px;
+  height: 410px;
+  left: 35%;
+  top: 18%;
+  margin-bottom: 10%;
+}
+
+.mosaic-convert{
+  position: fixed;
+  width: 5%;
+  height: 12%;
+  bottom: 25%;
+  line-height: 80px;
+  text-align: center;
+  right: 5%;
+  font-weight: bold;
+  color: whitesmoke;
+  border-radius: 60%;
+  background: #FF9800;
+}
+
+.mosaic-convert:hover{
+ background: #caa97a;
+}
+
+.mosaic-bottom:hover{
+ background: #8a8a8ab8;
+}
+
+body{
+    border: 1px solid gray;
+    /* margin-top: 0; */
+    overflow: hidden;
+    margin: 0;
+}
+
+.mosaic-menu{
+        width: 100%;
+        border: 1px solid gray;
+        height: 30px;
+        background: white;
+        position: fixed;
+}
+
+.mosaic-left{
+    position: relative;
+    width: 80%;
+    /* border-right: 1px solid gray; */
+    height: 100%;
+    float: left;
+
+    text-align: center;
+    /* border: 1px solid darkgray; */
+    background-color: #efefef;
+}
+
+.mosaic-left-top{
+    width: 80%;
+    height: 10%;
+    position: fixed;
+}
+
+.mosaic-button{
+    border: 1px solid #d6d5d5;
+    background-color: #efefef;
+    width: 100px;
+    color: #868484;
+    float: right;
+    padding-top: 5px;
+    height: 24px;
+    box-shadow: ;
+    border-radius: 4px;
+    margin-top: 1%;
+    margin-right: 15px;
+    font-size: small;
+}
+
+.mosaic-body-wrappper{
+    width: 80%;
+    margin-left: 10%;
+    height: 100%;
+}
+
+.mosaic-right{
+    position: relative;
+    float: left;
+    width: 19.89%;
+    border-right:;
+    border-left: 1px solid gray;
+    border: 0.1% solid gray;
+    background: white;
+    height: 100%;
+}
+
+.mosaic-area-share{
+    height: 50px;
+    width: 100%;
+}
+
+.mosaic-sub-title{
+height: 35px;
+background: #efefef;
+width: 100%;
+}
+.mosaic-fixel-size{
+    width: 100%;
+    height: 100px;
+}
+
+.mosaic-sub-fixel-area{
+    width: 100%;
+    height: 40%;
+}
+
+.mosaic-sub-fixel-button{
+    width: 100%;
+    height: 40%;
+}
+
+.mosaic-submit-button{
+    border: 1px solid #c1bcbc;
+    width: 36%;
+    float: left;
+    border-radius: 2px;
+    background-color: #f7f5f5;
+    height: 68%;
+    margin-left: 5px;
+    flaot: left;
+}
+
+.mosaic-button-common:hover{
+ background-color: #2f4f4f9c;
+}
+
+.mosaic-button-common{
+	font-size: small;
+    text-align: center;
+    padding-top: 5px;
+    color: #868484;
+}
+
+.mosaic-cancel-button{
+  border: 1px solid #c1bcbc;
+    width: 25%;
+    border-radius: 2px;
+    background-color: #f7f5f5;
+    float: left;
+    height: 68%;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.mosaic-close-button:hover{
+	background: #757575;
+    color: white;
+}
+
+.mosaic-close-button{
+    width: 30px;
+    position: relative;
+    top: 2px;
+    margin-right: 5px;
+    float: right;
+    text-align:center;
+    height: 80%;
+    cursor: pointer;
+}
+
+
+.dim-mask{
+	position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #808080d9;
+    display: none;
+}
+
+.mosaic-sub-share-area{
+ padding-top: 5px;
+}
+
+
+.mosaic-shape-circle{
+ width: 36px;
+    float: left;
+    border-radius: 30px;
+    background: linear-gradient( to left, #c1e1ef, #e0f6ff );
+    height: 36px;
+    /* background-color: #30b2ec; */
+    border: 1px solid gray;
+    box-shadow: 2px 2px 2px #adc2cc;
+    margin-left: 10px;
+    cursor:pointer;
+    border: 1px solid #1e85d8;
+}
+
+.mosaic-shape-square{
+    width: 36px;
+    height: 36px;
+    float: left;
+    margin-left: 10px;
+    background: linear-gradient( to left, #c1e1ef, #e0f6ff );
+    box-shadow: 2px 2px 2px #adc2cc;
+    border: 1px solid #1e85d8;
+    cursor:pointer;
+}
+
+.mosaic-shape:hover{
+     background: gray;
+     border: 1px solid gray;
+}
+
+#density{
+	   -webkit-appearance: none;
+    width: 55%;
+    height: 7px;
+    position: relative;
+    top: 10px;
+    left: 35px;
+    border-radius: 5px;
+    background: #9c9c9c;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.mosaic-area{
+    position: fixed;
+    background: #505f6bab;
+}
